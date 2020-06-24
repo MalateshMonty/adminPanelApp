@@ -22,12 +22,13 @@ function UserList(props) {
 
   return (
     <div>
+      <h3 className="headerText">Users List</h3>
       <table id="customers">
         <tr>
           <th>Pic</th>
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Country</th>
+          <th>Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
         </tr>
         {users.map((item, i) => {
           return (
