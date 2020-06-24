@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.sideBar {
+  width: 10%;
+}
+
+.header {
+  height: 8%;
+}
+
+.userPart {
+  width: 94%;
+}
